@@ -1,1 +1,1 @@
-# ASUE-P4E-Homeworks
+## Homework repository for ASUE Programming for Economists (P4E) course
