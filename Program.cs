@@ -6,8 +6,8 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            int[] array= {1,3,1,2,6,7,4,9,4,6};
-            Sorter.BubbleSort(array);
+            int[] array= {1,3,1,9,6,59,7,4,8,6,9,-8,0};
+            Sorter.InsertationSort(array);
             foreach(int i in array)
                 Console.WriteLine(i);
             
