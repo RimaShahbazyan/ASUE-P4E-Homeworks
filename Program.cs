@@ -6,10 +6,10 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            int[] array= {1,3,1,9,6,59,7,4,8,6,9,-8,0};
-            Sorter.SelectionSort(array);
-            foreach(int i in array)
-                Console.WriteLine(i);
+             int[] array= {1,45,5,0,8};
+                Sorter.MergeSort(array);
+             foreach(int i in array)
+                 Console.WriteLine(i);
             
         }
     }

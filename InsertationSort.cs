@@ -1,8 +1,6 @@
-using System;
-
 namespace Algorithms
 {
-    public partial class Sorter 
+    public static partial class Sorter 
     {
         public static void InsertationSort(int[] array)
         {

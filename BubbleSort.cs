@@ -1,10 +1,7 @@
-using System;
-
 namespace Algorithms
 {
-    public partial class Sorter 
+    public static partial class Sorter 
     {
-        private Sorter(){}
         public static void BubbleSort( int[] array) 
         {
             
