@@ -48,10 +48,3 @@ namespace Algorithms
     }
 }
 
-// 
-// 
-// 
-// ref must be init
-// out accepts intitialized or not in...  parrametrs and get a reult
-// 
-// parse mi tipi arjeqy urish tipi arjeqi
