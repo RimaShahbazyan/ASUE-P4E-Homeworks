@@ -1,9 +1,11 @@
 
+using System;
+
 namespace Algorithms
 {
-    public static partial class Sorter 
+    public static partial class Sorter<T> where T : IComparable<T>
     {
-        public static void MergeSort(int[] array)
+        public static void MergeSort(T[] array)
         {
             // b - beginning, e - end, m - middle m+1 is 1st el of second half , curr is current size of subarrays 
             int  curr=1, b=0, e,m;
@@ -26,14 +28,15 @@ namespace Algorithms
                 curr=curr*2;
             }
         }
-        private static void Merge(int[] array, int b, int e, int m)
+        private static void Merge(T[] array, int b, int e, int m) 
         {
-            int i1=b,i2=e, temp;
+            int i1 = b, i2 = e;
+            T temp;
             while(i1<m+1)
             {
                 while(i2>m)
                 {
-                    if(array[i1]>array[i2])
+                    if(array[i1].CompareTo( array[i2])==1 )
                     {
                         temp=array[i1];
                         array[i1]=array[i2];
